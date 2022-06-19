@@ -46,13 +46,13 @@ resultsContainer.innerHTML += `
 `;
 
 // Question 7
-function createList(list) {
+function createlist(list) {
   for (let i = 0; i < list.length; i++) {
     console.log(list[i].name);
   }
 }
 
-const catnames = createList(cats);
+const catNames = createlist(cats);
 
 // Question 8
 const catContainer = document.querySelector(".cat-container");
